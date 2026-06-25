@@ -43,3 +43,4 @@ df["Total_Sales"] = df["Quantity"] * df["Unit_Price"] * (1 - df["Discount"])
 # 4. Show Output
 # -----------------------------
 print(df.head())
+print(df.describe())
